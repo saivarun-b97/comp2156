@@ -1,21 +1,55 @@
 {
-  "name": "comp2156",
-  "version": "1.0.0",
-  "description": "\\#### COMP2156 – Developer Operations | 101203923 Saivarun Bandari",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Warning: No tests created yet.\""
+  "author": "Saivarun Bandari",
+  "browserslist": {
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
   },
+  "bugs": {
+    "url": "https://github.com/saivarun-b97/comp2156/issues"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "description": "\\#### COMP2156 – Developer Operations | 101203923 Saivarun Bandari",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "homepage": "https://saivarun-b97.github.io/comp2156",
+  "keywords": [],
+  "license": "ISC",
+  "main": "src/index.js",
+  "name": "comp2156",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/saivarun-b97/comp2156.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/saivarun-b97/comp2156/issues"
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\""
   },
-  "homepage": "https://github.com/saivarun-b97/comp2156#readme"
+  "version": "1.0.0",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
