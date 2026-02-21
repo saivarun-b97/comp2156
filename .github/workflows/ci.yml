@@ -3,7 +3,9 @@ run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 
 on:
   pull_request:
-    branches: ["dep-inclusions"]
+    branches: ["main"]
+  push:
+    branches: ["main"]
 
 jobs:
   build:
